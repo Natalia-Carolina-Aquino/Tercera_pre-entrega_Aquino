@@ -1,0 +1,11 @@
+Esta entrega prestende simular un prototipo de un blog de tejido, donde los usarios registrados pueden subir los proyectos que desean compartir, así como información sobre distintos tipos de hilados y accesorios.
+
+Para ello, cuenta con un panel de navegación en la parte superior con los siguientes botones:
+
+Agregar Tejido: Este botón nos lleva a la url 'app/agregar_tejidos/' donde podremos cargar las características del proyecto a incluir
+Agregar Hilado: Este botón nos lleva a la url 'app/agregar_hilados/' donde podremos cargar los detalles de los hilados que se pueden utilizar para llevar a cabo los proyectos.
+Agregar Accesorio: Este botón nos lleva a la url 'app/agregar_accesorios/' donde podremos cargar los detalles de los aacesorios que nos permiten llevar a cabo los proyectos.
+
+Buscar Tejido: Nos lleva a la url 'app/buscar_tejido/'  , que permite buscar un proyecto de tejido cargado en la página a través del campo nombre
+
+Crear Usuario: permite el ingreso de un nombre de usuario y contraseña (url: 'app/crear_usuario/'

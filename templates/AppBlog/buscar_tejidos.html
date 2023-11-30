@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block navigation %}
+<div>
+    <form action="/app/buscar_tejido" method="get">
+        {{form.as_p}}
+        <input type="submit" value="Buscar">
+    </form>
+</div>
+ {% for tejido in tejidos %}
+            <h2>{{tejidos.name}}</h2>
+
+        {% endfor %}
+{% endblock %}
